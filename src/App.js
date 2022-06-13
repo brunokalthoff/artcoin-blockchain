@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+// router:
+
+// header
+// start page whatever
+// user area/add transaction
+// blockchain
+// footer
+
+
 import './App.css';
+import React from 'react';
+import Blockchain from './Blockchain';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Blockchain/>
   );
 }
 
